@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wiki-import-test</title>
+    <meta
+      name="description"
+      content="공통 위키 import·부트스트랩 흐름 검증용 테스트 프로젝트"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <p class="eyebrow">LLM Wiki</p>
+        <h1>wiki-import-test</h1>
+        <p class="lead">공통 위키 import·부트스트랩 흐름을 검증하는 테스트 프로젝트.</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section aria-labelledby="overview-title">
+        <h2 id="overview-title">개요</h2>
+        <p>
+          이 프로젝트는 <code>$HOME/.llm-wiki</code>에 위치한 공통 위키를
+          부트스트랩하고, 정의된 규칙(개발원칙·컨벤션·접근성)이 실제 작업에
+          반영되는지 확인하기 위한 정적 사이트입니다.
+        </p>
+      </section>
+
+      <section aria-labelledby="stack-title">
+        <h2 id="stack-title">스택</h2>
+        <dl class="spec">
+          <div class="spec-row">
+            <dt>플랫폼</dt>
+            <dd>web</dd>
+          </div>
+          <div class="spec-row">
+            <dt>구성</dt>
+            <dd>HTML, CSS 정적 파일</dd>
+          </div>
+          <div class="spec-row">
+            <dt>제약</dt>
+            <dd>번들러·패키지 매니저·프레임워크 미도입</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section aria-labelledby="run-title">
+        <h2 id="run-title">실행</h2>
+        <p>별도 빌드 없이 <code>index.html</code>을 브라우저로 열면 됩니다.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>공통 위키 검증용 · platform: web</p>
+      </div>
+    </footer>
+  </body>
+</html>
